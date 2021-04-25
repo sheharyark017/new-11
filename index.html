@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- css file -->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+
+    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <!-- bootstrap script -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar-top">
+        <div class="inner-width">
+            <button class="menu-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="logo">
+                <a href="index.html"><img src="images/anan-logo.png" alt=""></a>
+            </div>
+
+            <div class="navbar-menu">
+                <a href="index.html" class="active">Home</a>
+                <a href="aboutus.html">About us</a>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <div class="container-fluid">
+                            <div class="row no-pad">
+                                <div class="nav-links-col">
+                                    <li><a class="dropdown-item" href="#">UHT Milk - Dairy</a></li>
+                                    <li><a class="dropdown-item" href="#">Full cream</a></li>
+                                    <li><a class="dropdown-item" href="#">Low fat</a></li>
+                                    <li><a class="dropdown-item" href="#">Skimmed milk</a></li>
+                                    <li><a class="dropdown-item" href="#">Flavor milk</a></li>
+                                    <li><a class="dropdown-item" href="#">Juices</a></li>
+                                </div>
+                                <div class="nav-links-col">
+                                    <li><a class="dropdown-item" href="#">Pulses</a></li>
+                                    <li><a class="dropdown-item" href="#">Spices</a></li>
+                                    <li><a class="dropdown-item" href="#">Rice</a></li>
+                                    <li><a class="dropdown-item" href="#">Sugar</a></li>
+                                    <li><a class="dropdown-item" href="#">Eadible oils</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <a href="services.html">Services</a>
+                <a href="contactus.html" class="nav-btn">Get in touch</a>
+            </div>
+            <p class="hello">hello</p>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <div class="click">
+
+        <div class="home-top-image">
+
+            <!-- <img src="images/home-slider.jpeg" alt=""> -->
+            <!-- <div class="overlay"> -->
+            <!-- <div class="top">
+                <div class="about-top-text">
+                    <p>WELCOME TO <span>AL NOOR AL NAFI</span> FOOD STUFF TRADING <span>LLC</span></p>
+                    <a href="">Discover Products</a>
+                </div>
+            </div> -->
+            <!-- </div> -->
+        </div>
+
+        <!-- slider -->
+
+        <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active slider-1">
+                    <div class="slider-text">
+                        <p>WELCOME TO <span>AL NOOR AL NAFI</span> FOOD STUFF TRADING <span>LLC</span></p>
+                        <a href="">Discover Products</a>
+                    </div>
+                </div>
+                <div class="carousel-item slider-2">
+                    <div class="slider-text">
+                        <p>Get the <span>fresh food</span> from <span>us</span></p>
+                        <a href="">Discover Products</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div> -->
+
+        <!-- end slider -->
+
+        <!-- Products -->
+
+        <div class="products">
+
+            <div class="products-top">
+                <p>Our Products</p>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="products-col">
+                        <div class="products-item">
+                            <div class="products-image">
+                                <img class="products-img" src="https://ananfoodstuff.com/uploads/products_img/3da317bdf58b6eb3aed0c976b247f9ae.jpg" alt="">
+                            </div>
+                            <p>Almarai Flavour Milk Chocolate</p>
+                        </div>
+                    </div>
+                    <div class="products-col">
+                        <div class="products-item">
+                            <div class="products-image">
+                                <img class="products-img" src="https://ananfoodstuff.com/uploads/products_img/b22937f1222321c2fbc19939e4a3755c.jpg" alt="">
+                            </div>
+                            <p>Almarai Flavour Milk Chocolate</p>
+                        </div>
+                    </div>
+                    <div class="products-col">
+                        <div class="products-item">
+                            <div class="products-image">
+                                <img class="products-img" src="https://ananfoodstuff.com/uploads/products_img/3da317bdf58b6eb3aed0c976b247f9ae.jpg" alt="">
+                            </div>
+                            <p>Almarai Flavour Milk Chocolate</p>
+                        </div>
+                    </div>
+                    <div class="products-col">
+                        <div class="products-item">
+                            <div class="products-image">
+                                <img class="products-img" src="https://ananfoodstuff.com/uploads/products_img/3da317bdf58b6eb3aed0c976b247f9ae.jpg" alt="">
+                            </div>
+                            <p>Almarai Flavour Milk Chocolate</p>
+                        </div>
+                    </div>
+                    <div class="products-col">
+                        <div class="products-item">
+                            <div class="products-image">
+                                <img class="products-img" src="https://ananfoodstuff.com/uploads/products_img/3da317bdf58b6eb3aed0c976b247f9ae.jpg" alt="">
+                            </div>
+                            <p>Almarai Flavour Milk Chocolate</p>
+                        </div>
+                    </div>
+
+                    <div class="products-col">
+                        <div class="products-item">
+                            <div class="products-image">
+                                <img class="products-img" src="https://ananfoodstuff.com/uploads/products_img/3da317bdf58b6eb3aed0c976b247f9ae.jpg" alt="">
+                            </div>
+                            <p>Almarai Flavour Milk Chocolate</p>
+                        </div>
+                    </div>
+                    <div class="products-col">
+                        <div class="products-item">
+                            <div class="products-image">
+                                <img class="products-img" src="https://ananfoodstuff.com/uploads/products_img/3da317bdf58b6eb3aed0c976b247f9ae.jpg" alt="">
+                            </div>
+                            <p>Almarai Flavour Milk Chocolate</p>
+                        </div>
+                    </div>
+                    <div class="products-col">
+                        <div class="products-item">
+                            <div class="products-image">
+                                <img class="products-img" src="https://ananfoodstuff.com/uploads/products_img/3da317bdf58b6eb3aed0c976b247f9ae.jpg" alt="">
+                            </div>
+                            <p>Almarai Flavour Milk Chocolate</p>
+                        </div>
+                    </div>
+                    <div class="products-col">
+                        <div class="products-item">
+                            <div class="products-image">
+                                <img class="products-img" src="https://ananfoodstuff.com/uploads/products_img/3da317bdf58b6eb3aed0c976b247f9ae.jpg" alt="">
+                            </div>
+                            <p>Almarai Flavour Milk Chocolate</p>
+                        </div>
+                    </div>
+                    <div class="products-col">
+                        <div class="products-item">
+                            <div class="products-image">
+                                <img class="products-img" src="https://ananfoodstuff.com/uploads/products_img/3da317bdf58b6eb3aed0c976b247f9ae.jpg" alt="">
+                            </div>
+                            <p>Almarai Flavour Milk Chocolate</p>
+                        </div>
+                    </div>
+                    <div class="products-col">
+                        <div class="products-item">
+                            <div class="products-image">
+                                <img class="products-img" src="https://ananfoodstuff.com/uploads/products_img/3da317bdf58b6eb3aed0c976b247f9ae.jpg" alt="">
+                            </div>
+                            <p>Almarai Flavour Milk Chocolate</p>
+                        </div>
+                    </div>
+                    <div class="products-col">
+                        <div class="products-item">
+                            <div class="products-image">
+                                <img class="products-img" src="https://ananfoodstuff.com/uploads/products_img/3da317bdf58b6eb3aed0c976b247f9ae.jpg" alt="">
+                            </div>
+                            <p>Almarai Flavour Milk Chocolate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end Products -->
+
+        <!-- our brands -->
+
+        <div class="brands">
+            <div class="brands-top">
+                <p>Our Brands</p>
+            </div>
+        </div>
+
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://ananfoodstuff.com/img/brands/Almarai-Logo.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ananfoodstuff.com/img/brands/Heinz-logo.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ananfoodstuff.com/img/brands/AL-rawabi.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ananfoodstuff.com/img/brands/al-ain-farms.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ananfoodstuff.com/img/brands/Lacnor.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ananfoodstuff.com/img/brands/NADEC-New-logo-.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ananfoodstuff.com/img/brands/Al-Sawafi.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://ananfoodstuff.com/img/brands/safa%20milk%20logo.png" alt="">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+        <!-- end our brands -->
+
+        <!-- footer -->
+        <footer id="footer">
+            <div class="inner-footer">
+                <div class="row">
+                    <div class="footer-col footer-links">
+                        <h3>Quick Links</h3>
+                        <hr>
+                        <a href="">Home</a>
+                        <a href="">About Us</a>
+                        <a href="">Products</a>
+                        <a href="">Services</a>
+                        <a href="">Get in touch</a>
+
+                    </div>
+                    <div class="footer-col footer-links">
+                        <h3>products</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="links-col">
+                                <a href="#">Pulses</a>
+                                <a href="#">Spices</a>
+                                <a href="#">Rice</a>
+                                <a href="#">Sugar</a>
+                                <a href="#">Eadible oils</a>
+                                <a href="#">Juices</a>
+
+                            </div>
+                            <div class="links-col">
+                                <a href="#">UHT Milk - Dairy</a>
+                                <a href="#">Full cream</a>
+                                <a href="#">Low fat</a>
+                                <a href="#">Skimmed milk</a>
+                                <a href="#">Flavor milk</a>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="footer-col footer-contact">
+                        <h3>Contact us</h3>
+                        <hr>
+                        <p>AL NOOR AL NAFI FOODSTUFF TRADING LLC</p>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="footer-icon-col">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="footer-detail-col">
+                                    <p>Office No 101, Almheiri Builduing Ras Al Khor Industrial Third, Dubai-U.A.E</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="footer-icon-col">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="footer-detail-col">
+                                    <p>+97152 218 0195</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="footer-icon-col">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="footer-detail-col">
+                                    <p>info@ananfoodstuff.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="icons">
+                            <a class="icon" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="icon" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="icon" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="icon" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="credits">
+                    <p>Copyright <strong>© Ananfoodstuff</strong> 2021 , All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </div>
+
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

@@ -45,12 +45,6 @@ body {
     justify-content: space-between;
 }
 
-.logo {
-    font-weight: 700;
-    font-size: 50px;
-    color: #fff;
-}
-
 .logo img {
     width: 130px;
 }
@@ -110,13 +104,14 @@ body {
 }
 
 .dropdown-menu {
-    min-width: 340px;
+    min-width: 420px;
     background-color: #5a1b89;
     margin-top: 30px;
 }
 
 .dropdown-menu.show {
     transform: translate(30px, 57px) !important;
+    left: -100% !important;
 }
 
 .dropdown-toggle {
@@ -165,7 +160,7 @@ body {
 .dropdown-item {
     display: inline-block;
     padding: 5px 5px;
-    width: 170px;
+    width: 210px;
     color: #fff;
 }
 
@@ -184,7 +179,7 @@ body {
 /* end navbar */
 
 .home-top-image {
-    background-image: url('../images/MAP-SPICES.jpg');
+    background-image: url('../images/MAP-SPICES-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -847,8 +842,8 @@ footer i {
         display: block;
         z-index: 999;
     }
-    .logo {
-        font-size: 30px;
+    .logo img {
+        width: 80px;
     }
     .hello {
         display: block;
@@ -873,7 +868,7 @@ footer i {
     .navbar-menu a {
         color: #000;
         display: block;
-        font-size: 20px;
+        font-size: 18px;
         margin: 30px 0;
     }
     .dropdown-toggle {
@@ -887,9 +882,24 @@ footer i {
         margin-left: 0px;
         transition: .2s linear;
     }
+    .dropdown-menu {
+        min-width: 340px;
+        background-color: #5a1b89;
+        margin-top: 30px;
+    }
+    .dropdown-item {
+        display: inline-block;
+        padding: 5px 5px;
+        width: 170px;
+        color: #fff;
+    }
+    .dropdown-menu.show {
+        transform: initial !important;
+        left: initial !important;
+    }
     .dropdown-menu a {
         margin-left: 0;
-        color: #000;
+        color: #fff;
         font-size: 14px;
         font-weight: 400;
         margin: 10px 0;
@@ -916,6 +926,9 @@ footer i {
     }
     /* end navbar */
     /* slider */
+    .home-top-image {
+        height: 30vh;
+    }
     .slider-text {
         height: 100%;
         width: 100%;

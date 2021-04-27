@@ -810,6 +810,45 @@ footer i {
     padding-bottom: 10px;
 }
 
+.cards {
+    text-align: center;
+    padding: 50px;
+}
+
+.card-col {
+    width: 25%;
+    margin-bottom: 25px;
+}
+
+.card {
+    box-shadow: 0 0px 20px #b4b4b4;
+    transition: .5s;
+    transform: translateY(30px);
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card-details {
+    margin-top: 20px;
+}
+
+.card-details p {
+    font-size: 26px;
+    font-weight: 600;
+    color: #5a1b89;
+}
+
+.card:hover {
+    /* box-shadow: 0px 0px 20px 0 #777; */
+    box-shadow: 0 26px 40px #777;
+}
+
+.card img {
+    width: 60%;
+}
+
 
 /* end footer */
 
